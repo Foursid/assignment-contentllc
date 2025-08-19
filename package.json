@@ -7,6 +7,7 @@
     "scripts": {
         "dev": "webpack serve --mode development --stats-error-details",
         "build": "webpack --mode production",
+        "start": "node server.js",
         "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ."
     },
     "dependencies": {
