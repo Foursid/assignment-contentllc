@@ -1,0 +1,10 @@
+:root {
+    --header-height: 96px;
+    --footer-height: 172px;
+    --main-min-height: calc(100dvh - var(--header-height) - var(--footer-height));
+    --content-max-width: 1125px;
+    --text-primary-color: #0b1524;
+    --text-secondary-color: #0b1524a8;
+    --background-primary-color: #f2f3f4;
+    --background-secondary-color: #ffffff;
+}

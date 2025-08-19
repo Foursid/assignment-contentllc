@@ -1,0 +1,136 @@
+.card {
+    width: 100%;
+    height: 168px;
+    padding: 20px 24px;
+    border-radius: 10px;
+    background-color: var(--background-secondary-color);
+
+    &__inner {
+        display: flex;
+        gap: 20px;
+        height: 100%;
+    }
+
+    &__photo {
+        width: 171px;
+        max-height: 128px;
+        border: 1px solid #fff;
+        border-radius: 8px;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        width: fit-content;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        a {
+            color: var(--text-primary-color);
+            text-decoration: none;
+        }
+    }
+
+    &__from,
+    &__cargo {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    &__from {
+        margin-top: 8px;
+    }
+
+    &__cargo {
+        margin-top: 12px;
+    }
+
+    &__icon {
+        width: 20px;
+        height: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__label {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    &__date {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+    }
+
+    &__cargo-primary {
+        color: var(--text-secondary-color);
+    }
+
+    &__cargo-more {
+        &:hover {
+            opacity: 0.7;
+        }
+
+        a {
+            color: #0762c8;
+            text-decoration: none;
+        }
+    }
+
+    &__offer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__cost {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 224px;
+        height: 32px;
+        padding: 4px 12px;
+        border-radius: 8px;
+        background-color: var(--background-primary-color);
+        cursor: pointer;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+    &__duration {
+        color: var(--text-secondary-color);
+    }
+
+    &__value {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,14 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+}
+
+.centered {
+    max-width: var(--content-max-width);
+    width: 100%;
+    margin: 0 auto;
+}
